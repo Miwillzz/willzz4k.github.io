@@ -1,0 +1,228 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial;
+    font-size: 16px;
+}
+
+header {
+    width: 100%;
+    height: 650px;
+    background-image: url(https://i.pinimg.com/originals/20/79/03/2079033abc8314be554f9d24f562a199.jpg);
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+    position: relative;
+    overflow: hidden;
+    color: #fff;
+    text-align: center;
+}
+
+
+/*para que funcione hay que dejar espacios*/
+
+header .textos {
+    margin-top: 152px;
+}
+
+header .titulo {
+    font-size: 85px;
+}
+
+header .subtitulo {
+    font-size: 42px;
+    font-weight: 300;
+    margin-bottom: 32px;
+}
+
+.boton {
+    display: inline-block;
+    padding: 6px;
+    width: 128px;
+    border: 1px solid #fff;
+    color: #fff;
+    font-size: 20px;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 16px;
+}
+
+.bajo {
+    z-index: 10;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    border-width: 0 0 35vh 100vw;
+    border-style: solid;
+    border-color: transparent transparent #fff transparent;
+}
+
+.arriba {
+    z-index: 10;
+    position: absolute;
+    top: 0;
+    left: 0;
+    border-width: 35vh 100vw 0 0;
+    border-style: solid;
+    border-color: #fff transparent transparent transparent;
+}
+
+.contenedor {
+    width: 90%;
+    max-width: 1000px;
+    margin: auto;
+    overflow: hidden;
+    padding: 52px 0;
+}
+
+.sobre-nos {
+    text-align: center;
+    font-size: 56px;
+    margin-bottom: 10px;
+    font-weight: 600;
+}
+
+.eslogan {
+    font-size: 30px;
+    font-weight: 500;
+    text-align: center;
+    margin-bottom: 28px;
+}
+
+.parrafo {
+    margin-bottom: 13px;
+    font-weight: 100;
+    text-align: justify;
+    line-height: 24px;
+}
+
+.boton2 {
+    display: inline-block;
+    padding: 6px;
+    width: 128px;
+    font-weight: 300;
+    border: 1px solid black;
+    color: black;
+    font-size: 16px;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 16px;
+}
+
+.galeria {
+    width: 100%;
+    height: 500px;
+    overflow: hidden;
+    display: flex;
+    position: relative;
+}
+
+.imagenes {
+    width: 100%;
+    height: 500px;
+    overflow: hidden;
+    position: relative;
+}
+
+.imagenes img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.cards {
+    width: 100%;
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.card {
+    margin: 20px 0;
+    width: 30%;
+    height: 250px;
+    text-align: center;
+    padding: 20px;
+    box-shadow: 0px 0px 4px 0 darkslateblue;
+}
+
+.cont h1 {
+    text-align: center;
+    font-family: arial;
+    font-size: 50px;
+    color: azure;
+    background: rgb(255, 22, 138);
+}
+
+.cont p {
+    text-align: justify;
+    margin-bottom: 12px;
+    font-weight: 100;
+    line-height: 24px;
+    /*padding-right: 120px;
+    padding-left: 120px;
+    padding-top: 30px;*/
+    padding: 30px 120px 80px 120px;
+}
+
+.img1 {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 80px;
+    border-radius: 40px;
+}
+
+.grid1 {
+    background: url(https://www.xtrafondos.com/descargar.php?id=3306&resolucion=2560x1440) no-repeat fixed center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    height: 100%;
+    width: 100%;
+    text-align: center;
+}
+
+.grid1 h1 {
+    font-size: 50px;
+    font-weight: 600;
+    color: azure;
+    padding-top: 240px;
+    padding-bottom: 80px;
+}
+
+.arriba2 {
+    z-index: 10;
+    position: absolute;
+    top: 0;
+    left: 0;
+    border-width: 35vh 100vw 0 0;
+    border-style: solid;
+    border-color: rgb(255, 255, 255) transparent transparent transparent;
+    top: 3260px;
+}
+
+.img2 {
+    border-radius: 200px;
+}
+
+.tw {
+    display: flex;
+    position: absolute;
+    top: 3660px;
+    left: 100px;
+}
+
+.fb {
+    display: flex;
+    position: absolute;
+    top: 3660px;
+    right: 100px;
+    border-radius: 200px;
+}
